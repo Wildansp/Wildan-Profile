@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+#about, #hobbies, #portfolio {
+    padding: 50px 0;
+    text-align: center;
+}
+
+#about h2, #hobbies h2, #portfolio h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.about-content, .hobbies-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.about-text {
+    margin-bottom: 30px;
+}
+
+.personal-info ul {
+    list-style: none;
+}
+
+.personal-info ul li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+#hobbies ul {
+    list-style: none;
+}
+
+#hobbies ul li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.container .psd {
+    letter-spacing: 10px;
+    color: #666;
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+
+.item {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.item img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.item h3 {
+    font-size: 1.5rem;
+    margin: 15px 0 10px;
+}
+
+.item p {
+    font-size: 1rem;
+    color: #666;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+footer p {
+    font-size: 1rem;
+}
