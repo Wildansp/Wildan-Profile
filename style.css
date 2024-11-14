@@ -16,7 +16,8 @@ header {
     text-align: center;
 }
 
-header h1 {
+header .judul {
+    color: #fff;
     font-size: 2.5rem;
     margin-bottom: 10px;
 }
@@ -105,6 +106,38 @@ header p {
 .item p {
     font-size: 1rem;
     color: #666;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+.education-history {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 10px;
+}
+.education-item {
+    margin-bottom: 20px;
+}
+.education-item h2 {
+    margin: 0;
+    font-size: 20px;
+    color: #0056b3;
+}
+.education-item p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #555;
 }
 
 footer {
